@@ -1,0 +1,54 @@
+(function(){  var msg = {
+  "data" : {
+    "subType" : "modal",
+    "msgContent" : {
+      "contentType" : "html",
+      "contentData" : {
+        "title" : "<img src=\"http://i.cdn.cnn.com/cnn/.e1mo/img/4.0/logos/logo_cnn_badge_2up.png\" alt=\"CNN_Logo\" class=\"sp_img\" height=\"45\" width=\"45\"><br>Uh oh. Looks like you're using an <br>ad blocker.",
+        "body" : "We charge advertisers instead of our audience. Please whitelist our site to show your support for CNN.com"
+      }
+    },
+    "theme" : "default",
+    "style" : {
+      "definedStyles" : false,
+      "title" : {
+        "fontSize" : "24px",
+        "color" : "#1a1a1a",
+        "backgroundColor" : "transparent"
+      },
+      "body" : {
+        "fontSize" : "14px",
+        "color" : "#1a1a1a",
+        "backgroundColor" : "transparent"
+      },
+      "backdrop" : {
+        "backgroundColor" : "rgba(0, 0, 0, 0.7)"
+      },
+      "general" : {
+        "backgroundColor" : "#F4F4F4",
+        "border" : "1px solid #DDDDDD",
+        "closeButtonColor" : "#666666",
+        "zIndex" : 10000
+      },
+      "customStyles" : ".sp_message .sp_message_frame {\n    overflow: auto;\n    padding: 10px;\n    background-color: transparent;\n\n}\n.sp_img{\nmax-width:45px;\nmax-height:45px;\nmargin:auto;\n}\n\n\n.sp_message .sp_message_panel {\n    border: 0px;\n\n}\n.sp_message_row {\n  border-radius: 10px;\n}\n.sp_message_container .sp_message_title {\n    font-family: CNN, \"Helvetica Neue\", Helvetica, Arial, Utkal, sans-serif;\n    padding: 0;\n    margin-top: 38px;\n    font-size: 24px;\n    letter-spacing: 0.5px;\n    text-align: center;\n    font-weight: bold;\n    color: #1a1a1a;\nwidth:500px;\n}\n.sp_message_container .sp_message_text {\n    padding-top: 10px;\n    padding-bottom: 25px;\n    font-family: CNN, \"Helvetica Neue\", Helvetica, Arial, Utkal, sans-serif;\n    font-size: 14px;\n    letter-spacing: 0.5px;\n    text-align: center;\n    line-height: 1.43;\n    color: #303030;\nwidth:500px;\n}\n.sp_message {\n    width: 520px;\n    height: 303px;\n\n}\n.sp_message_row {\n    background-color: #FFFFFF;\n\n}\n.sp_message_body {\n  align-self: center;\n  padding: 0 0 10px;\n\n}\n.sp_message button{\n  margin: auto;\n  font-family: CNN, \"Helvetica Neue\", Helvetica, Arial, Utkal, sans-serif;\n  letter-spacing: 1.5px;\n  background-color: #2370fd;\n  padding: 12px 20px 12px 20px;\n  border-radius: 9px;\n  cursor: pointer;\n  margin-bottom: 17px;\n}\n\n.sp_message button:hover {\n    background-color: #2360D1;\n}\n\n.sp_message .sp_message_dismiss {\n    float: right;\n    height: 34px;\n    width: 34px;\n    margin-top: -15px;\n    margin-right: -15px;\n    background-image: url(https://daks2k3a4ib2z.cloudfront.net/57d30b6aa1924bb30d7ae290/590b581e7e16083251333196_closebutton%402x.png);\n    background-size: contain;\n    color: transparent;\n}\n\n.sp_message .sp_message_dismiss:hover {\n    color: transparent;\n    background-color: transparent;\n}\n\n.sp_message_container .sp_message_text, .sp_message .sp_message_frame, .sp_message .sp_message_dismiss {\n  overflow: visible;\n}\n"
+    },
+    "options" : {
+      "destinationSelector" : "",
+      "removePageElementsSelector" : "",
+      "destination" : ""
+    },
+    "userData" : { },
+    "choice" : {
+      "renderMethod" : 1,
+      "options" : [ {
+        "choice_id" : 26210,
+        "type" : 1,
+        "iframe_url" : null,
+        "button_text" : "whitelist us"
+      } ]
+    }
+  },
+  "type" : "notice",
+  "msg_id" : 11393,
+  "version" : 1
+};  window._sp_.msg.displayMessage(msg);  try { if (typeof window._sp_.msg._internal.cdc1 === 'function') { window._sp_.msg._internal.cdc1({"msgID":11393,"d":{"abp":true,"abt":false},"o":{"wl":false,"oir":false},"u":{"uuid":"944f26c7-3cdb-4ed3-a7d8-693341e7ce08","bucket":409},"info":{"cmpgn_id":8245,"prtn_uuid":"e1d0c324-35d9-4a59-9bcf-99d340e88296","msg_id":11393,"msg_desc":"AdBlock_Message_v7 FINAL  -- Uh oh. Looks like you're using an ad blocker. 9.19.2017  (copy)"}});}} catch(e) {console.log("mms cdc:" + e);} })();
